@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "deteksi_depresi_app",
+            "request": "launch",
+            "type": "dart",
+            "console": "terminal",
+            "args": ["--no-sound-null-safety"]
+        },
+        {
+            "name": "deteksi_depresi_app (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "console": "terminal",
+            "args": ["--no-sound-null-safety"]
+        }
+    ]
+}
